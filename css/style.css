@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    font-size: calc(12px + 0.390625vw);
+}
+header div{
+    background-color: #3B8686;
+    padding: 2vw 7vw 2vw 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+header div ul{
+    display: flex;
+    padding-top: 2px ;
+
+}
+header div ul li a{
+    font-size: 1.2rem;
+    color: white;
+    margin: 0 1vw   ;
+    font-family: "Sour gummy", sans-serif;
+    padding: 10px;
+}
+header div ul li:first-child{
+    border-radius: 20px;
+    background-color: #479292;
+    margin: 0;
+}
+
+main section:first-child{
+    background-image: url(/home/lucas.luz/Documentos/atv-nature/img/back-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+        padding: 15vw 0vw 3vw 0vw;
+}
+main section:first-child h1{
+    padding: 10px;
+    margin: 7vw;
+    font-family: "Sour gummy", sans-serif;
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(58, 255, 255, 0.3);
+    width: 30%;
+}
