@@ -28,10 +28,10 @@ header div ul li:first-child{
 }
 
 main section:first-child{
-    background-image: url(/home/lucas.luz/Documentos/atv-nature/img/back-banner.png);
+    background-image: url(/home/lucas.luz/Documentos/atv-nature1/img/back-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-        padding: 15vw 0vw 3vw 0vw;
+        padding: 10vw 0vw 3vw 0vw;
 }
 main section:first-child h1{
     padding: 10px;
@@ -42,3 +42,158 @@ main section:first-child h1{
     background-color: rgba(58, 255, 255, 0.3);
     width: 30%;
 }
+
+main section:nth-child(2) ul{
+    display: flex;
+    justify-content: center;
+}
+main section:nth-child(2) ul li{
+    text-align: center;
+    padding: 5vw 5vw;
+    width: 25%;
+}
+main section:nth-child(2) ul li:first-child{
+    padding-left: 10vw;
+}
+
+main section:nth-child(2) ul li:nth-child(3){
+    padding-right: 10vw;
+}
+main section:nth-child(2) ul li span{
+    font-size: 4vw;
+    color: #3B8686;
+}
+
+main section:nth-child(2) ul li h2{
+    font-size: 2vw;
+    font-family: 'sour gummy';
+    padding-top: 1.5vw;
+    font-weight: bold;
+}
+
+main section:nth-child(2) ul li p{
+    font-family: sans-serif;
+    color: #747474;
+    padding: 1vw 0 1vw 0;
+}
+
+main section:nth-child(2) ul li a{
+    margin: 1vw 0 0 0;
+    background-color: #3B8686;
+    color: #fff;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+main section#clientes{
+    margin: 3vw 0;
+    background: linear-gradient(#3B868660, #3b868660), url(/home/lucas.luz/Documentos/atv-nature1/img/back-numeros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+main section#clientes ul{
+    display: flex;
+    height: 25%;
+    justify-content: space-between;
+    padding: 5vw;
+}
+
+main section#clientes ul li{
+    text-align: center;
+}
+
+main section#clientes ul li span{
+    font-size: 4vw;
+}
+
+main section#clientes ul li h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+main section#att{
+
+}
+main section#att div.principal{
+    display: flex;
+    align-items: start;
+    margin-top: 6vw;
+    margin: 0 5vw 0 5vw;
+}
+
+main section#att div.principal div:first-child div{
+    display: flex;
+}
+
+main section#att div.principal div:first-child{
+    margin: 0vw 15vw 0vw 5vw;
+}
+
+main section#att div.principal div:first-child h2{
+    color: #0B486B ;
+    font-size: 2.2vw;
+    margin: 0 0 2vw 0;
+}
+
+main section#att div.principal div:first-child a{
+    margin: 2vw 3vw 0 0;
+    background-color: #0B486B;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+footer{
+    margin-top: 5vw;
+    padding: 3vw 5vw 7vw 5vw ;
+    background-color:#3B8686 ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer div:first-child ul{
+    display: flex;
+} 
+
+footer div:first-child ul li:first-child{
+    margin-left: 0;
+}
+footer div:first-child ul li:last-child{
+    margin-right: 0;
+}
+
+footer div:first-child ul li{
+    margin: 0.5vw;
+    margin-top: 0;
+    font-size: 2vw;
+} 
+
+footer div:first-child ul li a{
+    color: white;
+}
+footer div:nth-child(2){
+    margin: 0 23vw 0 23vw
+}
+
+footer div:nth-child(2) p{
+    line-height: 25px;
+}
+
+footer div:nth-child(3) ul li{
+    margin-bottom: 2vw;
+}
+
+footer div:nth-child(3) ul li:last-child{
+    margin-bottom: 0;
+}
+
+footer div:nth-child(3) ul li a{
+    color: #fff;
+}
+
+footer div:nth-child(3) ul li
